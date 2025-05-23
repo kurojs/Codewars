@@ -1,0 +1,36 @@
+/* 
+You work in the best consumer electronics corporation, and your boss wants to find out which three products generate the most revenue.
+Given 3 lists of the same length like these:
+
+    products: ["Computer", "Cell Phones", "Vacuum Cleaner"]
+    amounts: [3, 24, 8]
+    prices: [199, 299, 399]
+
+Return the three product names with the highest revenues (amount * price), in descending order (highest to lowest revenue).
+
+Note: if multiple products have the same revenue, order them according to their original positions in the input list.
+*/
+
+// My solution
+
+
+function top3(products, amounts, prices) {
+
+  const revenues = products.map((product, index) => {
+    return {
+      name: product,
+      revenue: amounts[index] * prices[index],
+      index: index
+    };
+  });
+
+  revenues.sort((a, b) => {
+    if (b.revenue === a.revenue) {
+      return a.index - b.index; 
+    }
+    return b.revenue - a.revenue; 
+  });
+
+  return revenues.slice(0, 3).map(item => item.name);
+}
+
