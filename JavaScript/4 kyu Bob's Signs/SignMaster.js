@@ -16,7 +16,7 @@ Write a class SignMaster that is able to help Bob estimate prices quickly.
 Bob will need to be able to changePrices(prices) so that he can adapt to the changing market.
 He also needs to estimatePrice(oldSign, newSign) so that he can give his price estimates to his customers.
 
-The changePrices method takes an object that specifies the new prices. 
+The changePrices method takes an object that specifies the new prices.
 The values are the cost of doing an operation (add or remove) and the keys will be add or rem depending on the operation.
 Bob does not always want to change the price for both adding and removing letters, so this method should handle incomplete input. Before this method is called, the sign changes should be free.
 
