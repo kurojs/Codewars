@@ -17,7 +17,7 @@ This repository contains my daily Codewars practice solutions across multiple pr
 
 ## ✔️ Daily Practice Goals
 
-- Solve at least 5 problem (Katas) per day
+- Solve at least 2 problem (Katas) per day
 - Rotate between different programming languages
 - Track coding time using WakaTime
 - Focus on understanding different approaches and algorithms
