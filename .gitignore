@@ -1,2 +1,4 @@
 folderico-violet.ico
 desktop.ini
+# Local Pi runtime state
+.atl/
