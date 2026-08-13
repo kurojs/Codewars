@@ -4,16 +4,19 @@
 
 This repository contains my daily Codewars practice solutions across multiple programming languages. The goal is to improve problem-solving skills and maintain proficiency in various languages through consistent practice.
 
-## ☕ Languages
+## ☕ Languages & Katas
 
-- C++
-- Go
-- Java
-- JavaScript
-- PHP
-- Python
-- Rust
-- TypeScript
+| Language | Katas |
+| --- | --- |
+| C++ | 16 |
+| Go | 33 |
+| Java | 110 |
+| JavaScript | 355 |
+| PHP | 15 |
+| Python | 50 |
+| Rust | 18 |
+| TypeScript | 61 |
+| **Total** | **668** |
 
 ## ✔️ Daily Practice Goals
 
@@ -32,14 +35,14 @@ This repository contains my daily Codewars practice solutions across multiple pr
 
 ```
 codewars/
-├── cpp/          # C++ solutions
-├── go/           # Go solutions
-├── java/         # Java solutions
-├── javascript/   # JavaScript solutions
-├── php/          # PHP solutions
-├── python/       # Python solutions
-├── rust/         # Rust solutions
-└── typescript/   # TypeScript solutions
+├── Cpp/          # C++ solutions
+├── Go/           # Go solutions
+├── Java/         # Java solutions
+├── JavaScript/   # JavaScript solutions
+├── Php/          # PHP solutions
+├── Python/       # Python solutions
+├── Rust/         # Rust solutions
+└── TypeScript/   # TypeScript solutions
 ```
 
 ## Notes
